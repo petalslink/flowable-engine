@@ -1,6 +1,4 @@
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xmlns="http://maven.apache.org/POM/4.0.0"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <name>Flowable - IDM - Spring</name>
@@ -10,7 +8,7 @@
         <groupId>org.ow2.petals.flowable</groupId>
         <artifactId>flowable-root</artifactId>
         <relativePath>../..</relativePath>
-        <version>6.4.2-PETALS-0-SNAPSHOT</version>
+        <version>6.4.2-PETALS-0</version>
     </parent>
 
     <properties>
@@ -78,7 +76,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore></ignore>
+                                        <ignore />
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
@@ -188,12 +186,8 @@
                                 </goals>
                                 <configuration>
                                     <tasks>
-                                        <echo
-                                            message="updating log4j configuration to error logging" />
-                                        <copy
-                                            file="${basedir}/../../qa/logging/log4j.properties"
-                                            todir="target/test-classes"
-                                            overwrite="true" />
+                                        <echo message="updating log4j configuration to error logging" />
+                                        <copy file="${basedir}/../../qa/logging/log4j.properties" todir="target/test-classes" overwrite="true" />
                                     </tasks>
                                 </configuration>
                             </execution>

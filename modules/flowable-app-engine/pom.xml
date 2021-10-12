@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
 
@@ -11,7 +10,7 @@
         <groupId>org.ow2.petals.flowable</groupId>
         <artifactId>flowable-root</artifactId>
         <relativePath>../..</relativePath>
-        <version>6.4.2-PETALS-0-SNAPSHOT</version>
+        <version>6.4.2-PETALS-0</version>
     </parent>
 
     <dependencies>
@@ -208,7 +207,7 @@
                                         </goals>
                                     </pluginExecutionFilter>
                                     <action>
-                                        <ignore></ignore>
+                                        <ignore />
                                     </action>
                                 </pluginExecution>
                             </pluginExecutions>
@@ -238,12 +237,8 @@
                                 </goals>
                                 <configuration>
                                     <tasks>
-                                        <echo
-                                            message="updating log4j configuration to error logging" />
-                                        <copy
-                                            file="${basedir}/../../qa/logging/log4j.properties"
-                                            todir="target/test-classes"
-                                            overwrite="true" />
+                                        <echo message="updating log4j configuration to error logging" />
+                                        <copy file="${basedir}/../../qa/logging/log4j.properties" todir="target/test-classes" overwrite="true" />
                                     </tasks>
                                 </configuration>
                             </execution>
@@ -277,14 +272,9 @@
                                 </goals>
                                 <configuration>
                                     <tasks>
-                                        <echo
-                                            message="updating flowable configuration to db ${database}" />
-                                        <copy
-                                            file="${basedir}/../../qa/db/flowable.app.cfg.xml"
-                                            todir="target/test-classes"
-                                            overwrite="true">
-                                            <filterset
-                                                filtersfile="${user.home}/.flowable/jdbc/build.flowable6.${database}.properties" />
+                                        <echo message="updating flowable configuration to db ${database}" />
+                                        <copy file="${basedir}/../../qa/db/flowable.app.cfg.xml" todir="target/test-classes" overwrite="true">
+                                            <filterset filtersfile="${user.home}/.flowable/jdbc/build.flowable6.${database}.properties" />
                                         </copy>
                                     </tasks>
                                 </configuration>
@@ -297,11 +287,8 @@
                                 </goals>
                                 <configuration>
                                     <tasks>
-                                        <echo
-                                            message="dropping schema in ${database}" />
-                                        <java
-                                            classname="org.flowable.app.engine.impl.db.DbSchemaDrop"
-                                            classpathref="maven.test.classpath" />
+                                        <echo message="dropping schema in ${database}" />
+                                        <java classname="org.flowable.app.engine.impl.db.DbSchemaDrop" classpathref="maven.test.classpath" />
                                     </tasks>
                                 </configuration>
                             </execution>
@@ -334,14 +321,9 @@
                                 </goals>
                                 <configuration>
                                     <tasks>
-                                        <echo
-                                            message="updating flowable configuration to db ${databasewithschema}" />
-                                        <copy
-                                            file="${basedir}/../../qa/db/schema/flowable.app.cfg.xml"
-                                            todir="target/test-classes"
-                                            overwrite="true">
-                                            <filterset
-                                                filtersfile="${user.home}/.flowable/jdbc/build.flowable6.${databasewithschema}.properties" />
+                                        <echo message="updating flowable configuration to db ${databasewithschema}" />
+                                        <copy file="${basedir}/../../qa/db/schema/flowable.app.cfg.xml" todir="target/test-classes" overwrite="true">
+                                            <filterset filtersfile="${user.home}/.flowable/jdbc/build.flowable6.${databasewithschema}.properties" />
                                         </copy>
                                     </tasks>
                                 </configuration>
@@ -354,11 +336,8 @@
                                 </goals>
                                 <configuration>
                                     <tasks>
-                                        <echo
-                                            message="dropping schema in ${databasewithschema}" />
-                                        <java
-                                            classname="org.flowable.app.engine.impl.db.DbSchemaDrop"
-                                            classpathref="maven.test.classpath" />
+                                        <echo message="dropping schema in ${databasewithschema}" />
+                                        <java classname="org.flowable.app.engine.impl.db.DbSchemaDrop" classpathref="maven.test.classpath" />
                                     </tasks>
                                 </configuration>
                             </execution>
