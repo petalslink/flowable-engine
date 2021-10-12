@@ -1780,8 +1780,8 @@
 		<url>http://qa.flowable.org</url>
 	</ciManagement>
 	<scm>
-		<url>git@github.com:flowable/flowable-engine.git</url>
-		<connection>scm:git:git@github.com:flowable/flowable-engine.git</connection>
-		<developerConnection>scm:git:git@github.com:flowable/flowable-engine.git</developerConnection>
+		<url>https://github.com/petalslink/flowable-engine.git</url>
+		<connection>scm:git:https://github.com/petalslink/flowable-engine.git</connection>
+		<developerConnection>scm:git:https://github.com/petalslink/flowable-engine.git</developerConnection>
 	</scm>
 </project>
