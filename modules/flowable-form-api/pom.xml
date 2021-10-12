@@ -10,7 +10,7 @@
 		<groupId>org.ow2.petals.flowable</groupId>
 		<artifactId>flowable-root</artifactId>
 		<relativePath>../..</relativePath>
-		<version>6.4.2-PETALS-0</version>
+		<version>6.4.2-PETALS-1-SNAPSHOT</version>
 	</parent>
 
 	<properties>
