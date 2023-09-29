@@ -7,107 +7,107 @@
     <artifactId>flowable-engine</artifactId>
 
     <parent>
-        <groupId>org.flowable</groupId>
+        <groupId>org.ow2.petals.flowable</groupId>
         <artifactId>flowable-root</artifactId>
         <relativePath>../..</relativePath>
-        <version>7.0.0</version>
+        <version>7.0.0-PETALS-0-SNAPSHOT</version>
     </parent>
 
     <dependencies>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-bpmn-converter</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-process-validation</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-image-generator</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-engine-common-api</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-engine-common</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-variable-service</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-identitylink-service</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-entitylink-service</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-event-registry</artifactId>
         </dependency>
        <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-event-registry-configurator</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-eventsubscription-service</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-task-service</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-job-service</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-batch-service</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-idm-api</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-idm-engine</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-idm-engine-configurator</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-cmmn-api</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-dmn-api</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-form-model</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-form-api</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-content-api</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-http-common</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-mail</artifactId>
         </dependency>
         <dependency>
@@ -878,7 +878,7 @@
             </build>
             <dependencies>
                 <dependency>
-                    <groupId>org.flowable</groupId>
+                    <groupId>org.ow2.petals.flowable</groupId>
                     <artifactId>flowable-spring</artifactId>
                     <scope>test</scope>
                 </dependency>
@@ -1612,7 +1612,7 @@
             <id>mongodb</id>
             <dependencies>
                 <dependency>
-                    <groupId>org.flowable</groupId>
+                    <groupId>org.ow2.petals.flowable</groupId>
                     <artifactId>flowable-mongodb</artifactId>
                     <version>${project.version}</version>
                 </dependency>

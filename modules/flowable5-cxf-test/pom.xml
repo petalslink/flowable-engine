@@ -7,7 +7,7 @@
   <artifactId>flowable5-cxf-test</artifactId>
 
   <parent>
-    <groupId>org.flowable</groupId>
+    <groupId>org.ow2.petals.flowable</groupId>
     <artifactId>flowable-root</artifactId>
     <relativePath>../..</relativePath>
     <version>7.0.0</version>
@@ -15,28 +15,28 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.flowable</groupId>
+      <groupId>org.ow2.petals.flowable</groupId>
       <artifactId>flowable-engine</artifactId>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.flowable</groupId>
+      <groupId>org.ow2.petals.flowable</groupId>
       <artifactId>flowable5-engine</artifactId>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.flowable</groupId>
+      <groupId>org.ow2.petals.flowable</groupId>
       <artifactId>flowable5-test</artifactId>
       <version>7.0.0</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.flowable</groupId>
+      <groupId>org.ow2.petals.flowable</groupId>
       <artifactId>flowable-cxf</artifactId>
       <scope>provided</scope>
     </dependency>
     <dependency>
-	  <groupId>org.flowable</groupId>
+	  <groupId>org.ow2.petals.flowable</groupId>
 	  <artifactId>flowable5-spring-compatibility</artifactId>
 	  <scope>provided</scope>
 	</dependency>

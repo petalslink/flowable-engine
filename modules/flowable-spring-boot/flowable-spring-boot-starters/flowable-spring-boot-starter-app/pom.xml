@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.flowable</groupId>
+        <groupId>org.ow2.petals.flowable</groupId>
         <artifactId>flowable-spring-boot-starters</artifactId>
-        <version>7.0.0</version>
+        <version>7.0.0-PETALS-0-SNAPSHOT</version>
     </parent>
 
     <artifactId>flowable-spring-boot-starter-app</artifactId>
@@ -15,15 +15,15 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-spring-boot-autoconfigure</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-app-engine</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-app-engine-spring</artifactId>
         </dependency>
         <dependency>

@@ -8,7 +8,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.flowable</groupId>
+			<groupId>org.ow2.petals.flowable</groupId>
 			<artifactId>flowable-engine</artifactId>
 			<version>7.0.0</version>
 		</dependency>

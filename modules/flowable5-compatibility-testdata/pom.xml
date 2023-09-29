@@ -7,7 +7,7 @@
 	<artifactId>flowable5-compatibility-testdata</artifactId>
 
 	<parent>
-		<groupId>org.flowable</groupId>
+		<groupId>org.ow2.petals.flowable</groupId>
 		<artifactId>flowable-root</artifactId>
 		<relativePath>../..</relativePath>
 		<version>7.0.0</version>
@@ -15,7 +15,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.flowable</groupId>
+			<groupId>org.ow2.petals.flowable</groupId>
 			<artifactId>flowable-engine</artifactId>
 			<version>5.23.0</version>
 			<exclusions>
@@ -27,22 +27,22 @@
 			</exclusions>
 		</dependency>
 		<dependency>
-			<groupId>org.flowable</groupId>
+			<groupId>org.ow2.petals.flowable</groupId>
 			<artifactId>flowable-bpmn-model</artifactId>
 			<version>5.23.0</version>
 		</dependency>
 		<dependency>
-			<groupId>org.flowable</groupId>
+			<groupId>org.ow2.petals.flowable</groupId>
 			<artifactId>flowable-bpmn-converter</artifactId>
 			<version>5.23.0</version>
 		</dependency>
 		<dependency>
-			<groupId>org.flowable</groupId>
+			<groupId>org.ow2.petals.flowable</groupId>
 			<artifactId>flowable-image-generator</artifactId>
 			<version>5.23.0</version>
 		</dependency>
 		<dependency>
-			<groupId>org.flowable</groupId>
+			<groupId>org.ow2.petals.flowable</groupId>
 			<artifactId>flowable-process-validation</artifactId>
 			<version>5.23.0</version>
 		</dependency>

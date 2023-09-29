@@ -7,10 +7,10 @@
   <artifactId>flowable-bpmn-converter</artifactId>
 
   <parent>
-    <groupId>org.flowable</groupId>
+    <groupId>org.ow2.petals.flowable</groupId>
     <artifactId>flowable-root</artifactId>
     <relativePath>../..</relativePath>
-    <version>7.0.0</version>
+    <version>7.0.0-PETALS-0-SNAPSHOT</version>
   </parent>
   
   <properties>
@@ -90,20 +90,20 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.flowable</groupId>
+      <groupId>org.ow2.petals.flowable</groupId>
       <artifactId>flowable-bpmn-model</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.flowable</groupId>
+      <groupId>org.ow2.petals.flowable</groupId>
       <artifactId>flowable-engine-common-api</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.flowable</groupId>
+      <groupId>org.ow2.petals.flowable</groupId>
       <artifactId>flowable-process-validation</artifactId>
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.flowable</groupId>
+      <groupId>org.ow2.petals.flowable</groupId>
       <artifactId>flowable-bpmn-layout</artifactId>
       <scope>test</scope>
     </dependency>
@@ -129,7 +129,7 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.flowable</groupId>
+      <groupId>org.ow2.petals.flowable</groupId>
       <artifactId>flowable-engine-common</artifactId>
       <scope>test</scope>
     </dependency>

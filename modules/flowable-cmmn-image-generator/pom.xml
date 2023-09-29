@@ -8,10 +8,10 @@
 	<packaging>jar</packaging>
 
 	<parent>
-		<groupId>org.flowable</groupId>
+		<groupId>org.ow2.petals.flowable</groupId>
 		<artifactId>flowable-root</artifactId>
 		<relativePath>../..</relativePath>
-		<version>7.0.0</version>
+		<version>7.0.0-PETALS-0-SNAPSHOT</version>
 	</parent>
 
 	<properties>
@@ -100,7 +100,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.flowable</groupId>
+			<groupId>org.ow2.petals.flowable</groupId>
 			<artifactId>flowable-cmmn-model</artifactId>
 		</dependency>
         <dependency>

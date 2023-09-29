@@ -7,7 +7,7 @@
   <packaging>war</packaging>
 
   <parent>
-    <groupId>org.flowable</groupId>
+    <groupId>org.ow2.petals.flowable</groupId>
     <artifactId>flowable-root</artifactId>
     <relativePath>../../../../</relativePath>
     <version>7.0.0</version>

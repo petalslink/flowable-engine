@@ -7,27 +7,27 @@
 	<artifactId>flowable-job-service</artifactId>
 
 	<parent>
-		<groupId>org.flowable</groupId>
+		<groupId>org.ow2.petals.flowable</groupId>
 		<artifactId>flowable-root</artifactId>
 		<relativePath>../..</relativePath>
-		<version>7.0.0</version>
+		<version>7.0.0-PETALS-0-SNAPSHOT</version>
 	</parent>
 
 	<dependencies>
 		<dependency>
-			<groupId>org.flowable</groupId>
+			<groupId>org.ow2.petals.flowable</groupId>
 			<artifactId>flowable-engine-common-api</artifactId>
 		</dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-job-service-api</artifactId>
         </dependency>
 		<dependency>
-			<groupId>org.flowable</groupId>
+			<groupId>org.ow2.petals.flowable</groupId>
 			<artifactId>flowable-engine-common</artifactId>
 		</dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-variable-service</artifactId>
         </dependency>
 		<dependency>

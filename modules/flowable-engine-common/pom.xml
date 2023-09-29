@@ -8,10 +8,10 @@
     <artifactId>flowable-engine-common</artifactId>
 
     <parent>
-        <groupId>org.flowable</groupId>
+        <groupId>org.ow2.petals.flowable</groupId>
         <artifactId>flowable-root</artifactId>
         <relativePath>../..</relativePath>
-        <version>7.0.0</version>
+        <version>7.0.0-PETALS-0-SNAPSHOT</version>
     </parent>
 
     <properties>
@@ -124,19 +124,19 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-engine-common-api</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-variable-service-api</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-event-registry-api</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-mail</artifactId>
             <optional>true</optional>
         </dependency>

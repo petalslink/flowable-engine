@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.flowable</groupId>
+        <groupId>org.ow2.petals.flowable</groupId>
         <artifactId>flowable-root</artifactId>
-        <version>7.0.0</version>
+        <version>7.0.0-PETALS-0-SNAPSHOT</version>
         <relativePath>../../pom.xml</relativePath>
     </parent>
 
@@ -20,11 +20,11 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-engine-common-api</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-idm-api</artifactId>
         </dependency>
         <dependency>
@@ -39,7 +39,7 @@
 
         <!-- Test dependencies -->
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-idm-engine</artifactId>
             <scope>test</scope>
         </dependency>

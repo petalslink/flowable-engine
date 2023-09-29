@@ -4,11 +4,11 @@
 
 	<name>Flowable</name>
 	<description>BPM and workflow engine</description>
-	<groupId>org.flowable</groupId>
+	<groupId>org.ow2.petals.flowable</groupId>
 	<artifactId>flowable-root</artifactId>
 
 	<packaging>pom</packaging>
-	<version>7.0.0</version>
+	<version>7.0.0-PETALS-0-SNAPSHOT</version>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<distributionManagementSnapshotsUrl>https://oss.sonatype.org/content/repositories/snapshots/</distributionManagementSnapshotsUrl>
@@ -85,7 +85,7 @@
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>org.flowable</groupId>
+				<groupId>org.ow2.petals.flowable</groupId>
 				<artifactId>flowable-bom</artifactId>
 				<version>${project.version}</version>
 				<type>pom</type>
@@ -526,6 +526,17 @@
 		<module>modules/flowable-spring-security</module>
         <module>modules/flowable-http-common</module>
         <module>modules/flowable-mail</module>
+		<module>modules/flowable-cxf</module>
+		<module>modules/flowable-ldap</module>
+		<module>modules/flowable-ldap-configurator</module>
+		<module>modules/flowable-spring</module>
+		<module>modules/flowable-spring-common</module>
+		<module>modules/flowable-event-registry-spring-configurator</module>
+		<module>modules/flowable-event-registry-spring</module>
+		<module>modules/flowable-idm-spring</module>
+		<module>modules/flowable-idm-spring-configurator</module>
+		<module>modules/flowable-rest</module>
+		<module>modules/flowable-common-rest</module>
     </modules>
 
 	<build>
@@ -1319,9 +1330,9 @@
 		<url>https://github.com/flowable/flowable-engine/issues</url>
 	</issueManagement>
 	<scm>
-		<url>git@github.com:flowable/flowable-engine.git</url>
-		<connection>scm:git:git@github.com:flowable/flowable-engine.git</connection>
-		<developerConnection>scm:git:git@github.com:flowable/flowable-engine.git</developerConnection>
+		<url>https://github.com/petalslink/flowable-engine.git</url>
+		<connection>scm:git:https://github.com/petalslink/flowable-engine.git</connection>
+		<developerConnection>scm:git:https://github.com/petalslink/flowable-engine.git</developerConnection>
 	</scm>
 	<distributionManagement>
 		<snapshotRepository>

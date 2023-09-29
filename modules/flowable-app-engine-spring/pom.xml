@@ -6,10 +6,10 @@
     <artifactId>flowable-app-engine-spring</artifactId>
 
     <parent>
-        <groupId>org.flowable</groupId>
+        <groupId>org.ow2.petals.flowable</groupId>
         <artifactId>flowable-root</artifactId>
         <relativePath>../..</relativePath>
-        <version>7.0.0</version>
+        <version>7.0.0-PETALS-0-SNAPSHOT</version>
     </parent>
 
     <properties>
@@ -90,15 +90,15 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-app-engine</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-spring-common</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.flowable</groupId>
+            <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-event-registry-spring-configurator</artifactId>
         </dependency>
         <dependency>

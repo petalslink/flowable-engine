@@ -6,7 +6,7 @@
     <artifactId>flowable5-spring-test</artifactId>
 
     <parent>
-        <groupId>org.flowable</groupId>
+        <groupId>org.ow2.petals.flowable</groupId>
         <artifactId>flowable-root</artifactId>
         <relativePath>../..</relativePath>
         <version>7.0.0</version>
@@ -80,15 +80,15 @@
 
     <dependencies>
     	<dependency>
-			<groupId>org.flowable</groupId>
+			<groupId>org.ow2.petals.flowable</groupId>
 			<artifactId>flowable-spring</artifactId>
 		</dependency>
     	<dependency>
-			<groupId>org.flowable</groupId>
+			<groupId>org.ow2.petals.flowable</groupId>
 			<artifactId>flowable5-spring</artifactId>
 		</dependency>
         <dependency>
-			<groupId>org.flowable</groupId>
+			<groupId>org.ow2.petals.flowable</groupId>
 			<artifactId>flowable5-spring-compatibility</artifactId>
 		</dependency>
         <dependency>
@@ -133,7 +133,7 @@
             <artifactId>spring-orm</artifactId>
         </dependency>
         <dependency>
-			<groupId>org.flowable</groupId>
+			<groupId>org.ow2.petals.flowable</groupId>
 			<artifactId>flowable5-test</artifactId>
 			<version>7.0.0</version>
 		</dependency>
