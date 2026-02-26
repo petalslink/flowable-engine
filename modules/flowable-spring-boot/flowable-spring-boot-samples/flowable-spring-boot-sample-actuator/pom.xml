@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.ow2.petals.flowable</groupId>
         <artifactId>flowable-spring-boot-samples</artifactId>
-        <version>7.0.0-PETALS-0</version>
+        <version>7.0.0-PETALS-1-SNAPSHOT</version>
     </parent>
 
     <artifactId>flowable-spring-boot-sample-actuator</artifactId>
@@ -15,7 +15,7 @@
         <dependency>
             <groupId>org.ow2.petals.flowable</groupId>
             <artifactId>flowable-spring-boot-starter-actuator</artifactId>
-            <version>7.0.0-PETALS-0</version>
+            <version>7.0.0-PETALS-1-SNAPSHOT</version>
         </dependency>
         
         <dependency>
